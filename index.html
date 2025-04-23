@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+</head>
+<body class="bg-blue-200">
+    <h1 class="text-5xl text-center text-gray-400 font-extrabold">BMI Calculator</h1>
+<div class="flex flex-col justify-center items-center mt-10">
+    <!-- here block is used to class to push the upcoming elements below -->
+    <label for="weight" class="block text-lg font-medium text-gray-700">Enter Weight (kg):</label>
+    <input type="number" id="weight" class="border border-gray-300 rounded-md p-2 w-3/2 mt-2" placeholder="Enter your weight in kg">
+    <label for="height" class="block text-lg font-medium text-gray-700 mt-2">Enter height (cm):</label>
+    <input type="number" id="height" class="border border-gray-300 rounded-md p-2 w-3/2 mt-2" placeholder="Enter your height in cm">
+    <button class=" hover:scale-110 transition-transform rounded bg-blue-300 mt-10 p-[10px] px-10 ">Submit</button>
+    <p class="mt-5 mb-2 bmi">Your BMI is : </p>
+    <p class="result">You are </p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
